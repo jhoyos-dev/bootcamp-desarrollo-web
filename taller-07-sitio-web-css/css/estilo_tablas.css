@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Fuente1;
+    src: url(../font/AUGUSTUS.TTF);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgb(84, 208, 93);
+    box-shadow: 0px 4px 6px #000000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,td{
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+}
+
+td img{
+    width: 100px;
+    height: auto;
+    border-radius: 10%;
+}
+
+th {
+    background-color: rgb(186, 199, 16);
+    color: black;
+    font-size: 18px ;
+    font-family: Fuente1
+}
+
+tr:hover {
+    background-color: rgb(45, 145, 6);
+}
+
+.caracteristicas {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: italic;
+}
+
+.import {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

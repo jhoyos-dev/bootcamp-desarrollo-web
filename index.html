@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootcamp Desarrollo Web Full Stack | Jose Luis Hoyos</title>
+  <style>
+    :root { --bg:#0f172a; --card:#1e293b; --txt:#e2e8f0; --muted:#94a3b8; --acc:#38bdf8; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--txt); padding:48px 20px; }
+    main { max-width:960px; margin:0 auto; }
+    h1 { font-size:2rem; margin-bottom:8px; }
+    .sub { color:var(--muted); margin-bottom:36px; line-height:1.5; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:18px; }
+    a.card { display:block; background:var(--card); border:1px solid #334155; border-radius:12px; padding:22px; color:inherit; text-decoration:none; transition:transform .2s, border-color .2s; }
+    a.card:hover { transform:translateY(-4px); border-color:var(--acc); }
+    .num { color:var(--acc); font-weight:700; font-size:.85rem; letter-spacing:.05em; }
+    h2 { font-size:1.15rem; margin:6px 0 8px; }
+    p { color:var(--muted); font-size:.92rem; line-height:1.45; }
+    .tags { margin-top:12px; display:flex; gap:6px; flex-wrap:wrap; }
+    .tags span { font-size:.75rem; background:#0b3a53; color:#bae6fd; padding:3px 8px; border-radius:999px; }
+    footer { margin-top:40px; color:var(--muted); font-size:.85rem; }
+    footer a { color:var(--acc); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Bootcamp Desarrollo Web Full Stack</h1>
+  <p class="sub">Talleres desarrollados por Jose Luis Hoyos Salazar en el bootcamp del Ministerio TIC y Talento Tech (2024). Haz clic en cada taller para verlo funcionando.</p>
+  <div class="grid">
+    <a class="card" href="taller-01-tabla-html/taller1.html"><div class="num">TALLER 01</div><h2>Tablas en HTML</h2><p>Ranking de peleadores con tablas, imágenes y estructura semántica.</p><div class="tags"><span>HTML</span></div></a>
+    <a class="card" href="taller-02-etiquetas-html/principal.html"><div class="num">TALLER 02</div><h2>Etiquetas HTML</h2><p>Listas, enlaces, imágenes, tablas y páginas enlazadas.</p><div class="tags"><span>HTML</span></div></a>
+    <a class="card" href="taller-03-formularios-bootstrap/taller3.html"><div class="num">TALLER 03</div><h2>Formularios con Bootstrap</h2><p>Inicio de sesión, registro y recuperación de contraseña con validaciones HTML5.</p><div class="tags"><span>HTML</span><span>Bootstrap</span></div></a>
+    <a class="card" href="taller-04-tabla-css/index2.html"><div class="num">TALLER 04</div><h2>Tablas con CSS</h2><p>Estilos aplicados a tablas con hojas de estilo externas.</p><div class="tags"><span>CSS</span></div></a>
+    <a class="card" href="taller-05-transiciones-css/index.html"><div class="num">TALLER 05</div><h2>Transiciones CSS</h2><p>Efectos hover, menús con transiciones y fuentes personalizadas.</p><div class="tags"><span>CSS</span><span>@font-face</span></div></a>
+    <a class="card" href="taller-06-animaciones-css/index.html"><div class="num">TALLER 06</div><h2>Animaciones CSS</h2><p>Animaciones con @keyframes sobre personajes y elementos de la página.</p><div class="tags"><span>CSS</span><span>@keyframes</span></div></a>
+    <a class="card" href="taller-07-sitio-web-css/index.html"><div class="num">TALLER 07</div><h2>Sitio web multipágina</h2><p>Enciclopedia de dinosaurios con navegación, tablas, transiciones y animaciones.</p><div class="tags"><span>HTML</span><span>CSS</span></div></a>
+  </div>
+  <footer>Más proyectos en <a href="https://github.com/jhoyos-dev">github.com/jhoyos-dev</a></footer>
+</main>
+</body>
+</html>

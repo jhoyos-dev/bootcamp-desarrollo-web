@@ -1,0 +1,179 @@
+@font-face {
+    font-family: fuente1;
+    src: url(../font/Super\ Squad.otf);
+}
+
+@font-face {
+    font-family: fuente2;
+    src: url(../font/Hey\ Comic.otf);
+}
+
+@font-face {
+    font-family: fuente3;
+    src: url(../font/Ka\ Blam.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fuente2;
+    background: linear-gradient(90deg, rgb(193, 227, 229) 21%, rgb(243, 177, 131) 59%, rgb(219, 158, 53) 68%);
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header h1{
+    font-size: 2rem;
+    color: cornflowerblue;
+    background: #000000;
+    font-family: fuente1;
+    font-weight: bold;
+    border: 10px outset #0ce036;
+    text-align: center;
+}   
+
+
+.carta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.foto {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #a325798f;
+    width: 250px;
+    overflow: hidden;
+    transition: transform 0.3s; 
+}
+
+.foto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px #000000;
+}
+
+.carta img{
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    padding: 15px;
+    text-align: center;
+}
+
+.texto h2{
+    font-size: 2rem;
+    color: #3F51B5;
+    margin-bottom: 10px;
+    font-family: Fuente2;
+}
+
+.texto p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+/*REALIZACIÓN DE CAJAS DE TRANSICION*/
+.carta1{
+    background-color: #23c989;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+.carta1:hover{
+    background-color: #3F51B5;
+}
+.carta2{
+    background-color: #9B59B6;
+    -webkit-transition: font-size 3s ease;
+    transition: font-size 1s ease;
+}
+.carta2:hover{
+    font-size: 28px;
+}
+.carta3{
+    background-color: #2980B9;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+}
+.carta3:hover{
+    color: yellow;
+}
+.carta4{
+    background-color: #3498DB;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.carta4:hover{
+    line-height: 300px;
+}
+.carta5{
+    border-radius: 0px;
+    background-color: #17A589;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.carta5:hover{
+    border-radius: 20px;
+}
+.carta6{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+    }
+.carta6:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.carta7{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #E67E22;
+}
+.carta7:hover{
+    opacity: 0.3;
+}
+.carta8{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #95A5A6;
+}
+.carta8:hover{
+    border-style: solid;
+    border-color: #95A5A6;
+    border-color: #000;
+}
+.carta9{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2C3E50;
+}
+.carta9:hover{
+    margin: 80px;
+}
+.carta10{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: rgb(223, 0, 0);
+}
+.carta10:hover{
+    padding: 30px;
+}

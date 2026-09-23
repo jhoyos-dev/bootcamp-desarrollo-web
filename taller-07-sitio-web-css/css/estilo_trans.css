@@ -1,0 +1,111 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url(../font/AUGUSTUS.TTF);
+}
+
+body {
+    font-family: fuente2;
+    background: linear-gradient(90deg, rgb(193, 227, 229) 21%, rgb(243, 177, 131) 59%, rgb(219, 158, 53) 68%);
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header h1{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    background: #2c9018;
+    font-family: fuente1;
+    font-weight: bold;
+    border: 5px outset #b5ac2f;
+    text-align: center;
+}   
+
+
+.carta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.foto {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #a325798f;
+    width: 250px;
+    overflow: hidden;
+    transition: transform 0.3s; 
+}
+
+.foto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px #a5d024;
+}
+
+.carta img{
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    padding: 15px;
+    text-align: center;
+}
+
+.texto h2{
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.texto p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/*TRANSICIONES DE LAS IMAGENES*/
+.carta1{
+    background-color: #7714ce;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+.carta1:hover{
+    background-color: #b917d1;
+}
+
+.carta2{
+    border-radius: 0px;
+    background-color: #08c55d;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.carta2:hover{
+    border-radius: 20px;
+}
+
+.carta3{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2C3E50;
+}
+.carta3:hover{
+    margin: 80px;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Sunfish;
+    src: url(../font/Hey\ Comic.otf);
+}
+
+h1, h2{
+    font-family: Sunfish;
+}
+
+header, main{
+    text-align: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
